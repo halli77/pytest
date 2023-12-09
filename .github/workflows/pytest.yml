@@ -27,7 +27,7 @@ jobs:
         pip install pytest
     - name: set pythonpath
       run: |
-        echo "PYTHONPATH=src/halli" >> $GITHUB_ENV
+        echo "PYTHONPATH=src" >> $GITHUB_ENV
     - name: Test with pytest
       run: |
         pytest -vv
