@@ -1,4 +1,4 @@
-import square
+import .square
 
 def test_square():
   assert square.square(5) == 25
