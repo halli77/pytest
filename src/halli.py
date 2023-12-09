@@ -1,5 +1,5 @@
 def func(x):
     return x + 1
 
-def squ(n: int) -> int:
+def sq(n: int) -> int:
     return n * n
