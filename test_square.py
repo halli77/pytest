@@ -1,7 +1,6 @@
-import square
+import halli
 
 def test_square():
-  assert square.square(5) == 25
-  assert square.square(0) == 0
-  assert square.square(3) == 9
-
+  assert halli.square(5) == 25
+  assert halli.square(0) == 0
+  assert halli.square(3) == 9
